@@ -89,11 +89,6 @@ section, footer, header, aside, nav{
     -o-transform: scale(1.05);   
     transform: scale(1.05);  */	
 }
-.myMasonry {
-	  margin: auto;
-	  float: none;
-}
-
 .myMasonry img {
     width: 220px;
 }
@@ -102,6 +97,8 @@ section, footer, header, aside, nav{
 }
 
 .myMasonry{
+    margin: auto;
+    float: none;
     -webkit-transform: none !important;
     -moz-transform: none !important;
     transform: none !important;
